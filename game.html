@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="game.css">
+  </head>
+  <body>
+    <h1 class="top-head">Rock Paper Scissors</h1>
+    <button onclick="playGame('Rock')" class="choose-button"><img src="Rock.png" class="button-img"></button>
+    <button onclick="playGame('Paper')" class="choose-button"><img src="Paper.png" class="button-img"></button>
+    <button onclick="playGame('Scissors')" class="choose-button"><img src="Scissors.png" class="button-img"></button>
+    <p class="js-result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+    <button onclick="reset()" class="reset-button">Reset Score</button>
+    <button class="autoPlay-button" onclick="autoPlay()">Auto Play</button>
+    <script src="game.js"></script>
+  </body>
+</html>
